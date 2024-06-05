@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5a521bed0181a66edf4a18d7c5b2d825170d6cdc',
+        'reference' => '39a516c63a31a2f187fe4078f2987b24c2e24a6c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -65,14 +65,12 @@
             'dev_requirement' => false,
         ),
         'drupal/bootstrap_barrio' => array(
-            'pretty_version' => 'dev-5.5.x',
-            'version' => 'dev-5.5.x',
-            'reference' => 'c40b775e7b652fdf2ca9156a785b2c389247a701',
+            'pretty_version' => '5.5.16',
+            'version' => '5.5.16.0',
+            'reference' => '5.5.16',
             'type' => 'drupal-theme',
             'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap_barrio',
-            'aliases' => array(
-                0 => '5.5.x-dev',
-            ),
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -258,7 +256,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5a521bed0181a66edf4a18d7c5b2d825170d6cdc',
+            'reference' => '39a516c63a31a2f187fe4078f2987b24c2e24a6c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

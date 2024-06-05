@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01f54fff9f8e0ba954acbab63a87e7c3",
+    "content-hash": "cf760776d62f24ccca8eefc5744b996f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -491,11 +491,17 @@
         },
         {
             "name": "drupal/bootstrap_barrio",
-            "version": "dev-5.5.x",
+            "version": "5.5.16",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "c40b775e7b652fdf2ca9156a785b2c389247a701"
+                "reference": "5.5.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.5.16.zip",
+                "reference": "5.5.16",
+                "shasum": "c69cae4d197e7ae0c11acc276c9bd8a1ce1d31b7"
             },
             "require": {
                 "drupal/core": "^9.4 || ^10",
@@ -503,15 +509,12 @@
             },
             "type": "drupal-theme",
             "extra": {
-                "branch-alias": {
-                    "dev-5.5.x": "5.5.x-dev"
-                },
                 "drupal": {
-                    "version": "5.5.15+10-dev",
-                    "datestamp": "1701645055",
+                    "version": "5.5.16",
+                    "datestamp": "1701646126",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -4818,9 +4821,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "drupal/bootstrap_barrio": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
